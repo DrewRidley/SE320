@@ -1,3 +1,6 @@
+// Drew Ridley:
+// SE320
+// Assignment 3, Problem 1 10/3/23.
 public class GenericStack<Item> {
     private Object[] arr;
     private int len;

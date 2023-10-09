@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
+// Drew Ridley:
+// SE320
+// Assignment 3, Problem 2 10/3/23.
 public class Exercise19_03 {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<Integer>();
