@@ -7,7 +7,7 @@ public class GenericStack<Item> {
     private int capacity;
 
     public GenericStack() {
-        capacity = 2;
+        capacity = 1;
         arr = new Object[capacity];  
         len = 0;
     }
