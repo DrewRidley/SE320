@@ -18,9 +18,9 @@ public class Exercise19_03 {
 
     public static <E> ArrayList<E> removeDuplicates(ArrayList<E> list) { 
         //Hashmap here for constant time duplicate checking.
-        HashMap<String, E> map = new HashMap<>(list.size());
+        HashMap<Integer, E> map = new HashMap<>(list.size());
         for (E item : list) {
-            map.put(item.toString(), item);  
+            map.put(item.hashCode(), item);  
         }
         return new ArrayList<>(map.values());
     }
