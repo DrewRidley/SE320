@@ -46,6 +46,11 @@ public class CombinedTasks {
 
             System.out.println("\nNonduplicate words in ascending order:");
             words.forEach(System.out::println);
+
+            for (String word : words) {
+                System.out.println(word);
+            }
+
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
         }
