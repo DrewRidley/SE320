@@ -8,13 +8,8 @@ import java.util.TreeSet;
 
 public class CombinedTasks {
     public static void main(String[] args) {
-        // Task 1: LinkedHashSet Operations
         linkedHashsetOps();
-
-        // Task 2: TreeSet for Nonduplicate Words
-        treesetPrinter("words.txt"); // Replace with your file path
-
-        // Task 3: Number Formatting and Parsing
+        treesetPrinter("words.txt");
         formatAndParseNumbers();
     }
 
@@ -22,15 +17,12 @@ public class CombinedTasks {
         Set<String> set1 = new LinkedHashSet<>(Set.of("George", "Jim", "John", "Blake", "Kevin", "Michael"));
         Set<String> set2 = new LinkedHashSet<>(Set.of("George", "Katie", "Kevin", "Michelle", "Ryan"));
 
-        // Union
         Set<String> union = new LinkedHashSet<>(set1);
         union.addAll(set2);
 
-        // Difference
         Set<String> difference = new LinkedHashSet<>(set1);
         difference.removeAll(set2);
 
-        // Intersection
         Set<String> intersection = new LinkedHashSet<>(set1);
         intersection.retainAll(set2);
 
