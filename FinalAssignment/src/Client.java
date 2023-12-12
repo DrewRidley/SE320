@@ -27,7 +27,7 @@ public class Client {
                 System.out.print("\nEnter a height in meters: ");
                 float height = scanner.nextFloat();
 
-                while (weight < 20 || weight > 700) {
+                while (weight < 1 || weight > 700) {
                     System.out.print("\nYou likely entered an invalid weight.\n Enter the person's weight in kilograms!");
                     weight = scanner.nextFloat();
                 }
