@@ -28,12 +28,12 @@ public class Client {
                 float height = scanner.nextFloat();
 
                 while (weight < 1 || weight > 700) {
-                    System.out.print("\nYou likely entered an invalid weight.\n Enter the person's weight in kilograms!");
+                    System.out.print("\nThe weight must be between 1 and 700 kgs.\n Enter the person's weight in kilograms: ");
                     weight = scanner.nextFloat();
                 }
 
                 while (height < 0.2 || height > 3 ) {
-                    System.out.print("\nInvalid height entered. Enter a valid height in meters!");
+                    System.out.print("\nHeight must be between 200cm and 3 meters. Enter a valid height in meters: ");
                     height = scanner.nextFloat();
                 }
                 
